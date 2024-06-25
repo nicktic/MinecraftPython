@@ -10,6 +10,10 @@ def god(gm):
 def closestPortal(prtl):
     portal.getportal()
 
+def killAll(killall):
+    killall.killEverything()
+
+    
 gm = sys.argv[1]
 prtl = sys.argv[2]
 
